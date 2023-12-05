@@ -1,0 +1,45 @@
+body {
+    margin: 0%;
+    background-color: darkkhaki;
+}
+.header {
+    background-color:darkkhaki;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+.topnav {
+    overflow: hidden;
+    background-color:darkkhaki;   
+}
+.topnav a {
+    float: left;
+    display: block;
+    color :black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color:wheat;
+    color: rgb(0, 0, 0);
+    border-radius: 60px 70px 40px 140px;
+}
+ *{
+box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding:15px ;
+}
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+.footer{
+    background-color: #8d4b4b;
+    padding: 10px;
+    text-align: center;
+}
